@@ -1,4 +1,6 @@
-
+parameters:
+- name: name
 steps:
-    
-  - script: echo "Hello!!! its working now"
+   
+  - script: echo "Hello Everyone"
+  - script: echo ${{parameters.name}}
