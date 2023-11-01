@@ -9,13 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 extends:
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-    template: sample-template-step.yml
-    parameters:
-      name: Priya
+  template: sample-template-step.yml
+  parameters:
+     name: Priya
