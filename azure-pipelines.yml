@@ -8,7 +8,6 @@ trigger:
 - main
 pool:
   vmImage: ubuntu-latest
-[13:05] N, Joel Anto Williams (Cognizant)
 stages:
 - stage: Display
   jobs:
