@@ -4,8 +4,8 @@ steps:
   - script: echo "Hello Everyone"
   - script: echo ${{parameters.name}}
 stages:
-- stage: Angular
-  jobs:
-  - job: angularinstall
-    steps:
-    - script: npm install angular
+ - stage: Angular
+   jobs:
+    - job: angularinstall
+      steps:
+        - script: npm install angular
