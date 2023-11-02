@@ -7,4 +7,9 @@ stages:
   - job: welcome
     steps:
     - script: echo Welcome Everyone
+- stage: End
+  jobs:
+  - job: Over
+    steps:
+    - script: echo Goodbye
 
