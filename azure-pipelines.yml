@@ -9,9 +9,9 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 stages:
-- stage: Angular
+- stage: Display
   jobs:
-  - job: angularinstall
+  - job: greetings
     steps:
-    - script: npm install angular
+    - script: echo Hello world!
 
