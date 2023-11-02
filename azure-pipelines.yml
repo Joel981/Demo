@@ -8,6 +8,7 @@ trigger:
 - main
 pool:
   vmImage: ubuntu-latest
+[13:05] N, Joel Anto Williams (Cognizant)
 stages:
 - stage: Display
   jobs:
@@ -18,7 +19,8 @@ stages:
     steps:
     - script: echo Welcome Everyone
 - stage: End
-  job: Over
-  steps:
-  - script: echo Goodbye
+  jobs:
+  - job: Over
+    steps:
+    - script: echo Goodbye
 
