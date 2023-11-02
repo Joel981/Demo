@@ -8,5 +8,6 @@ trigger:
 - main
 pool:
   vmImage: ubuntu-latest
+- template: samp.yml 
 
 
