@@ -16,4 +16,4 @@ resources:
       ref: main
       endpoint: TempPrac
 stages:
-- template: steps.yml@sampleRepo
+- template: demo.yml@sampleRepo
