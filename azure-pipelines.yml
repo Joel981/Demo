@@ -10,6 +10,6 @@ pool:
   vmImage: ubuntu-latest
 steps:
 - script:
-    curl -o demo.yml -L https://raw.githubusercontent.com/Joel981/Sample/main/steps.yml
+    curl -o steps.yml -L https://raw.githubusercontent.com/Joel981/Sample/main/steps.yml
 
 
