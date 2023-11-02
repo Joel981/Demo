@@ -4,8 +4,8 @@ steps:
   - script: echo "Hello Everyone"
   - script: echo ${{parameters.name}}
 stages:
-- stage: Display
-  jobs:
+  - stage: Display
+    jobs:
   - job: greetings
     steps:
       script: echo Hello world!
