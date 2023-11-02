@@ -8,7 +8,12 @@ trigger:
 - main
 pool:
   vmImage: ubuntu-latest
+resources:
+  repositories:
+    - repository: sample
+      type: github
+      name: demo.yml
 stages:
-- template: samp.yml 
+- template: demo.yml 
 
 
