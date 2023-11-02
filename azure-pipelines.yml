@@ -8,8 +8,12 @@ trigger:
 - main
 pool:
   vmImage: ubuntu-latest
-steps:
-- script:
-    curl -o steps.yml -L https://raw.githubusercontent.com/Joel981/Sample/main/steps.yml
-
-
+resources:
+  repositories:
+    - repository: sampleRepo
+      type: github
+      name: Joel981/sample
+      ref: main
+      endpoint: TempPrac
+stages:
+- template: steps.yml@sampleRepo
