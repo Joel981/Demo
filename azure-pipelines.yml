@@ -12,5 +12,5 @@ extends:
   template: sample-template-step.yml
   parameters:
      name: Priya
-steps:
+stage:
   template: samp.yml
