@@ -12,8 +12,8 @@ resources:
   repositories:
     - repository: sample
       type: github
-      name: demo.yml
+      name: sample/steps.yml
 stages:
-- template: demo.yml 
+- template: steps.yml@sample 
 
 
