@@ -15,8 +15,7 @@ resources:
       name: Joel981/sample
       ref: main
       endpoint: TempPrac
-stages:
-  steps:
-  - template: demo.yml@sampleRepo
-  - parameters:
-      name: priya
+steps:
+- template: demo.yml@sampleRepo
+- parameters:
+    name: priya
